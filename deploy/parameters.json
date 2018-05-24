@@ -2,13 +2,22 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "publicIPAddresses_Dp1_name": {
+        "virtualMachines_Dp1_name": {
             "value": null
         },
-        "publicIPAddresses_Dp2_name": {
+        "virtualMachines_Dp2_name": {
             "value": null
         },
-        "publicIPAddresses_Dp3_name": {
+        "virtualMachines_Dp3_name": {
+            "value": null
+        },
+        "networkInterfaces_Dp1_name": {
+            "value": null
+        },
+        "networkInterfaces_Dp2_name": {
+            "value": null
+        },
+        "networkInterfaces_Dp3_name": {
             "value": null
         },
         "virtualNetworks_DpVnet_name": {
@@ -23,22 +32,25 @@
         "availabilitySets_DpAvailabilitySet_name": {
             "value": null
         },
-        "networkInterfaces_DpNetworkInterface1_name": {
+        "extensions_IIS_name": {
             "value": null
         },
-        "networkInterfaces_DpNetworkInterface2_name": {
+        "extensions_IIS_name_1": {
             "value": null
         },
-        "networkInterfaces_DpNetworkInterface3_name": {
+        "extensions_IIS_name_2": {
             "value": null
         },
         "subnets_DpSubnet_name": {
             "value": null
         },
-        "networkSecurityGroups_DpNetworkSecurityGroup_name": {
+        "virtualMachines_Dp1_id": {
             "value": null
         },
-        "securityRules_DpNetworkSecurityGroup80_name": {
+        "virtualMachines_Dp2_id": {
+            "value": null
+        },
+        "virtualMachines_Dp3_id": {
             "value": null
         },
         "loadBalancers_DpLoadBalancer_id": {
