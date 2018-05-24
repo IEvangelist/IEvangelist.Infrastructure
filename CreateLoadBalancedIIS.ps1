@@ -72,7 +72,7 @@ $vnet = New-AzureRmVirtualNetwork `
 for ($i=1; $i -le 3; ++ $i) {
    New-AzureRmNetworkInterface `
      -ResourceGroupName "DpLoadBalancer" `
-     -Name "Dp$iNic" `
+     -Name "Dp$i" `
      -Location "EastUS" `
      -Subnet $vnet.Subnets[0] `
      -LoadBalancerBackendAddressPool $lb.BackendAddressPools[0]
