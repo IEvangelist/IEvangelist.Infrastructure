@@ -100,8 +100,7 @@ for ($i=1; $i -le 3; ++ $i) {
         -SecurityGroupName "DpNetworkSecurityGroup" `
         -OpenPorts 80 `
         -AvailabilitySetName "DpAvailabilitySet" `
-        -Credential $cred `
-        -AsJob
+        -Credential $cred
 }
 
 ## IIS Bits...
